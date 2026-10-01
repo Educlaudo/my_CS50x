@@ -1,0 +1,63 @@
+Answer for the question No.1:
+
+PTBR: Acredito que fariamos assim: Primeiramente calculamos a média de "energy", a média de "valence"
+e a média de "danceability", vamos organizar isso e guardar para depois.
+Agora, devemos olhar estes três atributos em cada música, classificando se as "danceability",
+"energy" e "valence" são consideradas altas, médias ou baixas.
+Sendo que uma classifcação "alta" refere-se a um valor maior que 0.66, uma média equivale a um valor
+entre 0.33 e 0.66 inclusive, por fim, uma classificação baixaria seria um valor menor que 0.33.
+Depois disso criamos classificações de estilos músicais, como triste, alegre, enérgico, romântico com
+base em cada uma das 27 possíveis combinações.
+Por último, pegamos a média que calculamos no início e vemos o que mais se adequa às 27 vibes musicais
+que nós criamos, essa será a aura de nosso ouvinte de 2018.
+
+ENG: I think we'd do it like this: First, we calculate the average of "energy", the average of "valence" and the
+ average of "danceability", we will organize this and save it for later.
+Now, we have to look at these three attributes in each song, classifying whether the "danceability",
+"energy" and "valence" are considered high, medium or low.
+A "high" rating refers to a value greater than 0.66, a medium rating equates to a value
+between 0.33 and 0.66 and, finally, a low rating would be a value less than 0.33.
+We then created music style classifications, such as sad, happy, energetic, romantic with
+based on each of the 27 possible combinations.
+Finally, we take the average we calculated at the beginning and see what best suits the 27 musical vibes
+that we created, this will be the aura of our 2018 listener.
+
+--------------------------------------------------------------------------------------------------------------
+
+Answer for the question No.2:
+
+PTBR: Este pode não ser o melhor jeito de calcular e definir a aura de um ouvinte pois ele só leva em
+consideração três números atribuidos pelo Spotify àquela música, sem considerar seu estilo musical, se há
+vozes ou não, o autor,se é instrumental ou eletrônica, que tipo de música e a qual período ela pertence,
+o tipo de letra e/ou mensagem contida na música, ritmo, a que contexto ela pertence, a língua da música.
+Há centenas de fatores que podem classificar uma música e distingui-la das demais. Adicionar categorias e
+classificações mais amplas pode ajudar a distinguir de fato o estilo ou aura musical do ouvinte, e como
+alguns dados como estes não podem ser entregues em números, para indicar músicas que correspondem em
+classificações e categorias ou então criar uma variável que indique o grau de afinidade entre categorias
+e classificações e usá-lo para indicar músicas semelhantes.
+Um exemplo que mostraria como o método de classificação primeiramente dito é errôneo é o seguinte:
+Determinado ouvinte, que ama músicas instrumentais e músicas clássicas, andou ouvindo muitas músicas de
+Beethoven, principalmente aquelas mais dotadas de emoção e ritmos intensos, como o "Virus". Por isso o
+algoritmo sugere músicas como Thunderstruck de AC/DC. É evidente que estas músicas são semelhantes em
+"energy" e "danceability", porém são músicas completamente diferentes uma da outra. Se utilizassemos
+classificações mais brandas como "Clássica" ou "Instrumental", além das já existentes poderia-se indicar
+uma música mais adequada como Scherzo No.2 de Chopin, ou então As Quatro Estações de Vivaldi, ou até mesmo
+"Requiem" de Mozart, entre muitas outras opções aplicáveis.
+
+ENG: This may not be the best way to calculate and define a listener's aura because it only takes into
+consideration three numbers assigned by Spotify to that song, without considering its musical style,whether there are
+voices or not, the author, whether it is instrumental or electronic, what type of music and what period it belongs to,
+the type of lyrics and/or message contained in the song, rhythm, what context it belongs to, the language of the song.
+There are hundreds of factors that can classify a piece of music and distinguish it from others. Adding categories and
+broader classifications can help to really distinguish the listener's musical style or aura, and as
+some data like this cannot be delivered in numbers, to indicate songs that match in
+classifications and categories or else create a variable that indicates the degree of affinity between categories
+and classifications and use it to indicate similar songs.
+An example that would show how the classification method first mentioned is erroneous is the following:
+A certain listener, who loves instrumental music and classical music, has been listening to a lot of music by
+Beethoven, especially those more endowed with emotion and intense rhythms, such as "Virus". That's why the
+algorithm suggests songs like AC/DC's Thunderstruck. It's clear that these songs are similar in terms of
+"energy" and "danceability", but they are completely different. If we were to use
+more lenient classifications such as "Classical" or "Instrumental", in addition to the existing ones, we could indicate
+more suitable music such as Chopin's Scherzo No.2, or Vivaldi's Four Seasons, or even
+ Mozart's "Requiem", among many other applicable options.
